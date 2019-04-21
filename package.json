@@ -4,7 +4,7 @@
   "description": "https://www.robinwieruch.de/minimal-node-js-babel-setup/",
   "main": "index.js",
   "scripts": {
-	"start": "node src/index.js",
+    "start": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Henkef3/MyNodeProject/issues"
   },
-  "homepage": "https://github.com/Henkef3/MyNodeProject#readme"
+  "homepage": "https://github.com/Henkef3/MyNodeProject#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
 }
